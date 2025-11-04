@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Ụlọ",
+    "detect": "Chọpụta",
+    "history": "Akụkọ",
+    "recommendations": "Nkwanye"
+  },
+  "home": {
+    "badge": "Maka Ndị Ọrụ Ugbo Naịjirịa",
+    "title": "AI Dọkịta Ihe ọkụkụ",
+    "subtitle": "Chọpụta ọrịa ihe ọkụkụ ozugbo site na iji AI. Nweta ndụmọdụ ọgwụgwọ n'asụsụ obodo gị.",
+    "cta": {
+      "detect": "Chọpụta Ọrịa",
+      "learn": "Mụtakwuo"
+    },
+    "features": {
+      "title": "Gịnị kpatara ị ga-ahọrọ AI Dọkịta Ihe ọkụkụ?",
+      "detection": {
+        "title": "Nchọpụta Ngwa ngwa",
+        "description": "Bulite foto ma nweta nsonaazụ nchọpụta ọrịa ozugbo"
+      },
+      "ai": {
+        "title": "AI-Powered",
+        "description": "Ụdị mmụta igwe dị elu maka njirimara ọrịa ziri ezi"
+      },
+      "languages": {
+        "title": "Ọtụtụ Asụsụ",
+        "description": "Dị na Bekee, Hausa, Yoruba, Igbo, na Pidgin"
+      },
+      "reliable": {
+        "title": "A pụrụ ịdabere",
+        "description": "Ọnụ ọgụgụ izi ezi 90%+ yana ndụmọdụ sitere na ndị ọkachamara"
+      }
+    },
+    "stats": {
+      "accuracy": "Ọnụ ọgụgụ Izi ezi",
+      "farmers": "Ndị Ọrụ Ugbo Enyemaka",
+      "detections": "Nchọpụta Eme",
+      "languages": "Asụsụ"
+    },
+    "cta_section": {
+      "title": "Ị dị njikere ichebe Ihe ọkụkụ Gị?",
+      "description": "Malite ịchọpụta ọrịa taa ma nweta ndụmọdụ sitere na ndị ọkachamara"
+    },
+    "cta": {
+      "start": "Malite Ugbu a"
+    }
+  },
+  "detection": {
+    "title": "Nchọpụta Ọrịa",
+    "subtitle": "Bulite onyonyo ihe ọkụkụ gị ma ọ bụ see foto iji chọpụta ọrịa",
+    "upload_image": "Bulite Onyonyo",
+    "choose_file": "Họrọ Faịlụ",
+    "take_photo": "See Foto",
+    "open_camera": "Mepee Igwefoto",
+    "crop_type": "Ụdị Ihe ọkụkụ",
+    "auto_detect": "Chọpụta akpaaka",
+    "detect": "Chọpụta Ọrịa",
+    "processing": "Na-ahazi...",
+    "no_image": "Biko họrọ onyonyo na mbụ",
+    "success": "Emechara nchọpụta nke ọma!",
+    "error": "Enwere njehie n'oge nchọpụta",
+    "result_preview": "Emechara Nchọpụta",
+    "crop_detected": "Ihe ọkụkụ",
+    "disease": "Ọrịa"
+  },
+  "results": {
+    "title": "Nsonaazụ Nchọpụta",
+    "loading": "Na-ebubata nsonaazụ...",
+    "crop_type": "Ụdị Ihe ọkụkụ",
+    "confidence": "Obi ike",
+    "disease": "Ọrịa",
+    "symptoms": "Ihe mgbaàmà",
+    "treatments": "Ọgwụgwọ",
+    "prevention": "Ndụmọdụ Mgbochi",
+    "save": "Chekwaa n'Akụkọ",
+    "share": "Kesaa Nsonaazụ",
+    "saved": "Echekwara nsonaazụ n'akụkọ",
+    "save_error": "Emeghị ka echekwaa nsonaazụ",
+    "share_title": "Nsonaazụ Nchọpụta Ọrịa Ihe ọkụkụ",
+    "copied": "E depụtaghachiri nsonaazụ na clipboard",
+    "detect_again": "Chọpụta Ọzọ",
+    "view_full_guide": "Lelee Ntụziaka zuru ezu"
+  },
+  "history": {
+    "title": "Akụkọ Nchọpụta",
+    "subtitle": "Lelee nchọpụta ọrịa gị gara aga",
+    "loading": "Na-ebubata akụkọ...",
+    "load_error": "Emeghị ka eburu akụkọ",
+    "empty": "Enweghị akụkọ nchọpụta ma ọlị",
+    "delete_confirm": "Ị ji n'aka na ịchọrọ ihichapụ nchọpụta a?",
+    "deleted": "E hichapụrụ nchọpụta nke ọma",
+    "delete_error": "Emeghị ka ehichapụ nchọpụta",
+    "filter_all": "Ihe ọkụkụ niile"
+  },
+  "recommendations": {
+    "title": "Ndụmọdụ Ọgwụgwọ",
+    "subtitle": "Mụta banyere ọgwụgwọ ọrịa na mgbochi",
+    "general": {
+      "title": "Ndụmọdụ n'ozuzu",
+      "description": "Mgbe niile gbaa ndị ọkachamara ọrụ ugbo ajụjụ maka ikpe siri ike",
+      "tip1": {
+        "title": "Nchọpụta N'oge",
+        "description": "Chọpụta ọrịa n'oge maka nsonaazụ ọgwụgwọ ka mma"
+      },
+      "tip2": {
+        "title": "Enyemaka Ọkachamara",
+        "description": "Maka ikpe siri ike, gbaa ndị ọkachamara ọrụ ugbo ajụjụ"
+      }
+    }
+  },
+  "camera": {
+    "title": "See Foto",
+    "capture": "See Foto",
+    "error": "A jụrụ ohere igwefoto ma ọ bụ adịghị"
+  },
+  "severity": {
+    "none": "Ọ dịghị",
+    "low": "Dị ala",
+    "medium": "Ọkara",
+    "high": "Dị elu"
+  },
+  "cost": {
+    "low": "Ọnụ ego dị ala",
+    "medium": "Ọnụ ego ọkara",
+    "high": "Ọnụ ego dị elu"
+  },
+  "common": {
+    "optional": "Nhọrọ",
+    "back": "Azụ",
+    "cancel": "Kagbuo"
+  },
+  "crops": {
+    "maize": "Ọka",
+    "cassava": "Akpu",
+    "tomato": "Tomato"
+  },
+  "footer": {
+    "description": "Nchọpụta ọrịa ihe ọkụkụ AI maka ndị ọrụ ugbo Naịjirịa",
+    "quick_links": "Njikọ Ngwa ngwa",
+    "support": "Nkwado",
+    "support_text": "Nweta enyemaka na nkwado site n'òtù anyị",
+    "rights": "Ikike niile echekwara"
+  }
+}
+

@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Gida",
+    "detect": "Gano",
+    "history": "Tarihi",
+    "recommendations": "Shawarwari"
+  },
+  "home": {
+    "badge": "Ga Manoma Najeriya",
+    "title": "AI Likitan Amfanin Gona",
+    "subtitle": "Gano cututtukan amfanin gona nan da nan ta hanyar amfani da AI. Samu shawarwari na magani cikin yarenku.",
+    "cta": {
+      "detect": "Gano Cuta",
+      "learn": "Kara Koyo"
+    },
+    "features": {
+      "title": "Me yasa za ka zaɓi AI Likitan Amfanin Gona?",
+      "detection": {
+        "title": "Gano Nan da Nan",
+        "description": "Loda hoto kuma sami sakamakon gano cuta nan da nan"
+      },
+      "ai": {
+        "title": "Mai AI",
+        "description": "Ingantattun nau'ikan koyan inji don gano cuta daidai"
+      },
+      "languages": {
+        "title": "Yare Daya",
+        "description": "Ana samunsa a cikin Ingilishi, Hausa, Yoruba, Igbo, da Pidgin"
+      },
+      "reliable": {
+        "title": "Amincewa",
+        "description": "Kashi 90%+ na daidaito tare da shawarwari daga ƙwararru"
+      }
+    },
+    "stats": {
+      "accuracy": "Matsakaicin Daidaito",
+      "farmers": "Manoma An Taimaka",
+      "detections": "An Yi Ganowa",
+      "languages": "Harsuna"
+    },
+    "cta_section": {
+      "title": "Shirye ka Kare Amfanin Gonak?",
+      "description": "Fara gano cututtuka yau kuma sami shawarwari daga ƙwararru"
+    },
+    "cta": {
+      "start": "Fara Yanzu"
+    }
+  },
+  "detection": {
+    "title": "Gano Cuta",
+    "subtitle": "Loda hoton amfanin gonak ko ɗauki hoto don gano cututtuka",
+    "upload_image": "Loda Hoto",
+    "choose_file": "Zaɓi Fayil",
+    "take_photo": "Ɗauki Hoto",
+    "open_camera": "Buɗe Kamara",
+    "crop_type": "Nau'in Amfanin Gona",
+    "auto_detect": "Gano kai tsaye",
+    "detect": "Gano Cuta",
+    "processing": "Ana aiki...",
+    "no_image": "Da fatan zaɓi hoto da farko",
+    "success": "An kammala gano ciki!",
+    "error": "An sami kuskure yayin gano",
+    "result_preview": "An Kammala Ganowa",
+    "crop_detected": "Amfanin Gona",
+    "disease": "Cuta"
+  },
+  "results": {
+    "title": "Sakamakon Ganowa",
+    "loading": "Ana lodawa...",
+    "crop_type": "Nau'in Amfanin Gona",
+    "confidence": "Amincewa",
+    "disease": "Cuta",
+    "symptoms": "Alamun",
+    "treatments": "Magunguna",
+    "prevention": "Shawarwari na Rigakafi",
+    "save": "Ajiye cikin Tarihi",
+    "share": "Raba Sakamako",
+    "saved": "An ajiye sakamako cikin tarihi",
+    "save_error": "An kasa ajiye sakamako",
+    "share_title": "Sakamakon Gano Cuta",
+    "copied": "An kwafi sakamako zuwa clipboard",
+    "detect_again": "Gano Wani",
+    "view_full_guide": "Duba Jagorar Cikakke"
+  },
+  "history": {
+    "title": "Tarihin Ganowa",
+    "subtitle": "Duba ganowar cututtuka da suka gabata",
+    "loading": "Ana lodawa...",
+    "load_error": "An kasa lodawa tarihi",
+    "empty": "Babu tarihin ganowa tukuna",
+    "delete_confirm": "Ka tabbata ka so share wannan ganowa?",
+    "deleted": "An share ganowa cikin nasara",
+    "delete_error": "An kasa share ganowa",
+    "filter_all": "Duk Amfanin Gona"
+  },
+  "recommendations": {
+    "title": "Shawarwari na Magani",
+    "subtitle": "Koyi game da maganin cututtuka da rigakafi",
+    "general": {
+      "title": "Shawarwari Gabaɗaya",
+      "description": "Ko da yaushe ka tuntuɓi ƙwararru don cututtuka masu tsanani",
+      "tip1": {
+        "title": "Gano Da Wuri",
+        "description": "Gano cututtuka da wuri don sakamako mafi kyau na magani"
+      },
+      "tip2": {
+        "title": "Taimakon Ƙwararru",
+        "description": "Ga cututtuka masu tsanani, ka tuntuɓi ƙwararru"
+      }
+    }
+  },
+  "camera": {
+    "title": "Ɗauki Hoto",
+    "capture": "Ɗauki Hoto",
+    "error": "An hana damar kamara ko ba a samu ba"
+  },
+  "severity": {
+    "none": "Babu",
+    "low": "Ƙanƙanta",
+    "medium": "Matsakaici",
+    "high": "Babba"
+  },
+  "cost": {
+    "low": "Ƙarancin Kuɗi",
+    "medium": "Matsakaicin Kuɗi",
+    "high": "Babban Kuɗi"
+  },
+  "common": {
+    "optional": "Na zaɓi",
+    "back": "Baya",
+    "cancel": "Soke"
+  },
+  "crops": {
+    "maize": "Masara",
+    "cassava": "Rogo",
+    "tomato": "Tumatir"
+  },
+  "footer": {
+    "description": "Gano cututtukan amfanin gona mai AI ga manoma Najeriya",
+    "quick_links": "Hanyoyin Cikin Gaggawa",
+    "support": "Taimako",
+    "support_text": "Samu taimako daga ƙungiyar mu",
+    "rights": "Duk haƙƙoƙi an keɓe su"
+  }
+}
+

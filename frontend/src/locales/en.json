@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "detect": "Detect",
+    "history": "History",
+    "recommendations": "Recommendations"
+  },
+  "home": {
+    "badge": "For Nigerian Farmers",
+    "title": "AI Crop Doctor",
+    "subtitle": "Detect crop diseases instantly using AI-powered image recognition. Get treatment recommendations in your local language.",
+    "cta": {
+      "detect": "Detect Disease",
+      "learn": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose AI Crop Doctor?",
+      "detection": {
+        "title": "Instant Detection",
+        "description": "Upload a photo and get instant disease detection results"
+      },
+      "ai": {
+        "title": "AI-Powered",
+        "description": "Advanced machine learning models for accurate disease identification"
+      },
+      "languages": {
+        "title": "Multi-Language",
+        "description": "Available in English, Hausa, Yoruba, Igbo, and Pidgin"
+      },
+      "reliable": {
+        "title": "Reliable",
+        "description": "90%+ accuracy rate with recommendations from experts"
+      }
+    },
+    "stats": {
+      "accuracy": "Accuracy Rate",
+      "farmers": "Farmers Helped",
+      "detections": "Detections Made",
+      "languages": "Languages"
+    },
+    "cta_section": {
+      "title": "Ready to Protect Your Crops?",
+      "description": "Start detecting diseases today and get expert recommendations"
+    },
+    "cta": {
+      "start": "Get Started Now"
+    }
+  },
+  "detection": {
+    "title": "Disease Detection",
+    "subtitle": "Upload an image of your crop or take a photo to detect diseases",
+    "upload_image": "Upload Image",
+    "choose_file": "Choose File",
+    "take_photo": "Take Photo",
+    "open_camera": "Open Camera",
+    "crop_type": "Crop Type",
+    "auto_detect": "Auto-detect",
+    "detect": "Detect Disease",
+    "processing": "Processing...",
+    "no_image": "Please select an image first",
+    "success": "Detection completed successfully!",
+    "error": "An error occurred during detection",
+    "result_preview": "Detection Complete",
+    "crop_detected": "Crop",
+    "disease": "Disease"
+  },
+  "results": {
+    "title": "Detection Results",
+    "loading": "Loading results...",
+    "crop_type": "Crop Type",
+    "confidence": "Confidence",
+    "disease": "Disease",
+    "symptoms": "Symptoms",
+    "treatments": "Treatments",
+    "prevention": "Prevention Tips",
+    "save": "Save to History",
+    "share": "Share Results",
+    "saved": "Results saved to history",
+    "save_error": "Failed to save results",
+    "share_title": "Crop Disease Detection Results",
+    "copied": "Results copied to clipboard",
+    "detect_again": "Detect Another",
+    "view_full_guide": "View Full Guide"
+  },
+  "history": {
+    "title": "Detection History",
+    "subtitle": "View your past disease detections",
+    "loading": "Loading history...",
+    "load_error": "Failed to load history",
+    "empty": "No detection history yet",
+    "delete_confirm": "Are you sure you want to delete this detection?",
+    "deleted": "Detection deleted successfully",
+    "delete_error": "Failed to delete detection",
+    "filter_all": "All Crops"
+  },
+  "recommendations": {
+    "title": "Treatment Recommendations",
+    "subtitle": "Learn about disease treatments and prevention",
+    "general": {
+      "title": "General Recommendations",
+      "description": "Always consult with agricultural experts for serious cases",
+      "tip1": {
+        "title": "Early Detection",
+        "description": "Detect diseases early for better treatment outcomes"
+      },
+      "tip2": {
+        "title": "Professional Help",
+        "description": "For severe cases, consult with agricultural experts"
+      }
+    }
+  },
+  "camera": {
+    "title": "Take Photo",
+    "capture": "Capture Photo",
+    "error": "Camera access denied or not available"
+  },
+  "severity": {
+    "none": "None",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "cost": {
+    "low": "Low Cost",
+    "medium": "Medium Cost",
+    "high": "High Cost"
+  },
+  "common": {
+    "optional": "Optional",
+    "back": "Back",
+    "cancel": "Cancel"
+  },
+  "crops": {
+    "maize": "Maize",
+    "cassava": "Cassava",
+    "tomato": "Tomato"
+  },
+  "footer": {
+    "description": "AI-powered crop disease detection for Nigerian farmers",
+    "quick_links": "Quick Links",
+    "support": "Support",
+    "support_text": "Get help and support from our team",
+    "rights": "All rights reserved"
+  }
+}
+

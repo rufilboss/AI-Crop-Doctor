@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Home",
+    "detect": "Check",
+    "history": "History",
+    "recommendations": "Advice"
+  },
+  "home": {
+    "badge": "For Naija Farmers",
+    "title": "AI Crop Doctor",
+    "subtitle": "Check crop sickness quick quick with AI. Get treatment advice for your local language.",
+    "cta": {
+      "detect": "Check Sickness",
+      "learn": "Learn More"
+    },
+    "features": {
+      "title": "Why You Go Choose AI Crop Doctor?",
+      "detection": {
+        "title": "Quick Check",
+        "description": "Upload photo and get quick sickness check result"
+      },
+      "ai": {
+        "title": "AI-Powered",
+        "description": "Advanced machine learning for correct sickness identification"
+      },
+      "languages": {
+        "title": "Many Languages",
+        "description": "Dey available for English, Hausa, Yoruba, Igbo, and Pidgin"
+      },
+      "reliable": {
+        "title": "Reliable",
+        "description": "90%+ accuracy with advice from experts"
+      }
+    },
+    "stats": {
+      "accuracy": "Accuracy Rate",
+      "farmers": "Farmers Wey Don Help",
+      "detections": "Checks Wey Don Do",
+      "languages": "Languages"
+    },
+    "cta_section": {
+      "title": "You Ready to Protect Your Crops?",
+      "description": "Start checking sickness today and get expert advice"
+    },
+    "cta": {
+      "start": "Start Now"
+    }
+  },
+  "detection": {
+    "title": "Sickness Check",
+    "subtitle": "Upload your crop photo or snap picture to check sickness",
+    "upload_image": "Upload Photo",
+    "choose_file": "Choose File",
+    "take_photo": "Snap Picture",
+    "open_camera": "Open Camera",
+    "crop_type": "Crop Type",
+    "auto_detect": "Auto-check",
+    "detect": "Check Sickness",
+    "processing": "Dey process...",
+    "no_image": "Please choose photo first",
+    "success": "Check don finish well well!",
+    "error": "Something happen during check",
+    "result_preview": "Check Don Finish",
+    "crop_detected": "Crop",
+    "disease": "Sickness"
+  },
+  "results": {
+    "title": "Check Results",
+    "loading": "Dey load results...",
+    "crop_type": "Crop Type",
+    "confidence": "Confidence",
+    "disease": "Sickness",
+    "symptoms": "Symptoms",
+    "treatments": "Treatments",
+    "prevention": "Prevention Tips",
+    "save": "Save for History",
+    "share": "Share Results",
+    "saved": "Results don save for history",
+    "save_error": "No save results",
+    "share_title": "Crop Sickness Check Results",
+    "copied": "Results don copy for clipboard",
+    "detect_again": "Check Another One",
+    "view_full_guide": "See Full Guide"
+  },
+  "history": {
+    "title": "Check History",
+    "subtitle": "See your past sickness checks",
+    "loading": "Dey load history...",
+    "load_error": "No load history",
+    "empty": "No get check history yet",
+    "delete_confirm": "You sure say you want delete this check?",
+    "deleted": "Check don delete well",
+    "delete_error": "No delete check",
+    "filter_all": "All Crops"
+  },
+  "recommendations": {
+    "title": "Treatment Advice",
+    "subtitle": "Learn about sickness treatment and prevention",
+    "general": {
+      "title": "General Advice",
+      "description": "Always ask agricultural experts for serious cases",
+      "tip1": {
+        "title": "Early Check",
+        "description": "Check sickness early for better treatment results"
+      },
+      "tip2": {
+        "title": "Expert Help",
+        "description": "For serious cases, ask agricultural experts"
+      }
+    }
+  },
+  "camera": {
+    "title": "Snap Picture",
+    "capture": "Snap Picture",
+    "error": "Camera access no dey or no available"
+  },
+  "severity": {
+    "none": "None",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "cost": {
+    "low": "Low Cost",
+    "medium": "Medium Cost",
+    "high": "High Cost"
+  },
+  "common": {
+    "optional": "Optional",
+    "back": "Back",
+    "cancel": "Cancel"
+  },
+  "crops": {
+    "maize": "Maize",
+    "cassava": "Cassava",
+    "tomato": "Tomato"
+  },
+  "footer": {
+    "description": "AI-powered crop sickness check for Naija farmers",
+    "quick_links": "Quick Links",
+    "support": "Support",
+    "support_text": "Get help and support from our team",
+    "rights": "All rights reserved"
+  }
+}
+

@@ -1,0 +1,146 @@
+{
+  "nav": {
+    "home": "Ile",
+    "detect": "Waye",
+    "history": "Itan",
+    "recommendations": "Imọran"
+  },
+  "home": {
+    "badge": "Fun Awọn Agbe Nàìjíríà",
+    "title": "AI Dókítà Ògbìn",
+    "subtitle": "Waye awọn arun ọgbìn ni kikun nipa lilo iwọran AI. Gba awọn imọran iwosan ni ede agbegbe rẹ.",
+    "cta": {
+      "detect": "Waye Arun",
+      "learn": "Kọ Siwaju"
+    },
+    "features": {
+      "title": "Kíní o Fi Dókítà Ògbìn AI?",
+      "detection": {
+        "title": "Waye Lẹẹkansi",
+        "description": "Gbe aworan sii ki o gba awọn abajade waye arun lẹẹkansi"
+      },
+      "ai": {
+        "title": "AI-Powered",
+        "description": "Awọn apẹrẹ ẹkọ ẹrọ to gaju fun iṣamisi arun to tọ"
+      },
+      "languages": {
+        "title": "Ọpọlọpọ Ede",
+        "description": "O wa ni Gẹẹsi, Hausa, Yoruba, Igbo, ati Pidgin"
+      },
+      "reliable": {
+        "title": "Ologbo",
+        "description": "Oṣuwọn ojuṣe 90%+ pẹlu awọn imọran lati awọn ọjọgbọn"
+      }
+    },
+    "stats": {
+      "accuracy": "Oṣuwọn Ojuṣe",
+      "farmers": "Awọn Agbe Ti A Ran",
+      "detections": "Awọn Wiwa",
+      "languages": "Awọn Ede"
+    },
+    "cta_section": {
+      "title": "Ṣetan lati Dààbò Awọn Ọgbìn Rẹ?",
+      "description": "Bẹrẹ waye awọn arun loni ki o gba awọn imọran lati awọn ọjọgbọn"
+    },
+    "cta": {
+      "start": "Bẹrẹ Nisisiyi"
+    }
+  },
+  "detection": {
+    "title": "Waye Arun",
+    "subtitle": "Gbe aworan ọgbìn rẹ sii tabi gba fọto lati waye awọn arun",
+    "upload_image": "Gbe Aworan Sii",
+    "choose_file": "Yan Fayìlì",
+    "take_photo": "Gba Fọto",
+    "open_camera": "Ṣii Kamẹra",
+    "crop_type": "Iru Ọgbìn",
+    "auto_detect": "Waye laifọwọyi",
+    "detect": "Waye Arun",
+    "processing": "Ṣiṣẹ lọwọ...",
+    "no_image": "Jọwọ yan aworan ni akọkọ",
+    "success": "A ti pari waye ni aṣeyọri!",
+    "error": "Aṣiṣe kan ṣẹlẹ nipa waye",
+    "result_preview": "A Ti Pari Wiwa",
+    "crop_detected": "Ọgbìn",
+    "disease": "Arun"
+  },
+  "results": {
+    "title": "Awọn Abajade Wiwa",
+    "loading": "N gba awọn abajade...",
+    "crop_type": "Iru Ọgbìn",
+    "confidence": "Igbagbọ",
+    "disease": "Arun",
+    "symptoms": "Awọn Aami",
+    "treatments": "Awọn Iwosan",
+    "prevention": "Awọn Imọran Aabo",
+    "save": "Fi Si Itan",
+    "share": "Pin Awọn Abajade",
+    "saved": "A ti fi awọn abajade si itan",
+    "save_error": "Kuna lati fi awọn abajade",
+    "share_title": "Awọn Abajade Waye Arun Ọgbìn",
+    "copied": "A ti ṣe akọpọ awọn abajade si igbapadaka",
+    "detect_again": "Waye Miiran",
+    "view_full_guide": "Wo Itọsọna Kikun"
+  },
+  "history": {
+    "title": "Itan Wiwa",
+    "subtitle": "Wo awọn waye arun ti o kọja",
+    "loading": "N gba itan...",
+    "load_error": "Kuna lati gba itan",
+    "empty": "Ko si itan wiwa sibẹsibẹ",
+    "delete_confirm": "Ṣe o da ọ loju pe o fẹ pa waye yii?",
+    "deleted": "A ti pa waye ni aṣeyọri",
+    "delete_error": "Kuna lati pa waye",
+    "filter_all": "Gbogbo Awọn Ọgbìn"
+  },
+  "recommendations": {
+    "title": "Awọn Imọran Iwosan",
+    "subtitle": "Kọ nipa awọn iwosan arun ati aabo",
+    "general": {
+      "title": "Awọn Imọran Gbogbogbo",
+      "description": "Nigbagbogbo tọrọ iwọn lati awọn ọjọgbọn agbara fun awọn ọran ṣe",
+      "tip1": {
+        "title": "Waye Ni Wiwọle",
+        "description": "Waye awọn arun ni wiwọle fun awọn abajade iwosan to dara julọ"
+      },
+      "tip2": {
+        "title": "Iranlọwọ Ọjọgbọn",
+        "description": "Fun awọn ọran ṣe, tọrọ iwọn lati awọn ọjọgbọn agbara"
+      }
+    }
+  },
+  "camera": {
+    "title": "Gba Fọto",
+    "capture": "Mu Fọto",
+    "error": "A kọ ẹnu si kamẹra tabi ko si"
+  },
+  "severity": {
+    "none": "Ko Si",
+    "low": "Kere",
+    "medium": "Aarin",
+    "high": "Ga"
+  },
+  "cost": {
+    "low": "Owo Kere",
+    "medium": "Owo Aarin",
+    "high": "Owo Ga"
+  },
+  "common": {
+    "optional": "Yiyan",
+    "back": "Pada",
+    "cancel": "Fagilee"
+  },
+  "crops": {
+    "maize": "Agbado",
+    "cassava": "Ege",
+    "tomato": "Tomati"
+  },
+  "footer": {
+    "description": "Waye arun ọgbìn AI fun awọn agbe Nàìjíríà",
+    "quick_links": "Awọn Ọna Iyara",
+    "support": "Atilẹyin",
+    "support_text": "Gba iranlọwọ ati atilẹyin lati ẹgbẹ wa",
+    "rights": "Gbogbo awọn ẹtọ ti a ni"
+  }
+}
+
