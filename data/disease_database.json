@@ -1,1 +1,279 @@
-{}
+{
+  "maize_healthy": {
+    "name": {
+      "en": "Healthy Maize",
+      "ha": "Masara mai lafiya",
+      "yo": "Agbado alaafia",
+      "ig": "Ọka dị mma",
+      "pidgin": "Maize wey dey fine"
+    },
+    "symptoms": {
+      "en": [
+        "No visible symptoms",
+        "Green healthy leaves",
+        "Normal growth"
+      ],
+      "ha": [
+        "Babu alamun cuta",
+        "Ganye mai kore",
+        "Girma na yau da kullun"
+      ],
+      "yo": [
+        "Ko si awọn aami aisan",
+        "Awọn ewe alaafia",
+        "Idagbasoke deede"
+      ],
+      "ig": [
+        "Enweghị ihe mgbaàmà",
+        "Akwụkwọ ndụ na-acha akwụkwọ ndụ",
+        "Ọganihu nkịtị"
+      ],
+      "pidgin": [
+        "No symptoms",
+        "Green leaves dey fine",
+        "Dey grow well"
+      ]
+    },
+    "treatments": [],
+    "prevention": {
+      "en": [
+        "Maintain good farming practices",
+        "Regular monitoring",
+        "Proper irrigation"
+      ],
+      "ha": [
+        "Kula da aikin noma mai kyau",
+        "Dubawa akai-akai",
+        "Ban ruwa daidai"
+      ],
+      "yo": [
+        "Duro awọn ọna ogbin rere",
+        "Wiwọle laifọwọyi",
+        "Ọtun ọṣọ"
+      ],
+      "ig": [
+        "Nọgide na-eme ọrụ ugbo dị mma",
+        "Nleba anya mgbe niile",
+        "Ịgba mmiri kwesịrị ekwesị"
+      ],
+      "pidgin": [
+        "Keep good farming",
+        "Check am regular",
+        "Water am well"
+      ]
+    },
+    "severity": "none",
+    "urgency": "low"
+  },
+  "maize_maize_streak_virus": {
+    "name": {
+      "en": "Maize Streak Virus",
+      "ha": "Kwayoyin cutar masara",
+      "yo": "Arun agbado",
+      "ig": "Ọrịa ọka",
+      "pidgin": "Maize sickness virus"
+    },
+    "symptoms": {
+      "en": [
+        "Yellow streaks on leaves",
+        "Stunted growth",
+        "Reduced yield"
+      ],
+      "ha": [
+        "Rakuma na ganye",
+        "Rarraba girma",
+        "Rage amfanin gona"
+      ],
+      "yo": [
+        "Awọn iwọn ewe olu",
+        "Idagbasoke ti o duro",
+        "Ebi ti o dinku"
+      ],
+      "ig": [
+        "Ọrịa na-acha odo na akwụkwọ",
+        "Ọganihu na-akwụsị",
+        "Mkpụrụ na-ebelata"
+      ],
+      "pidgin": [
+        "Yellow lines dey show for leaves",
+        "Dey stop to grow",
+        "Yield dey reduce"
+      ]
+    },
+    "treatments": [
+      {
+        "type": "preventive",
+        "method": "Use resistant varieties",
+        "cost": "low",
+        "availability": "high",
+        "effectiveness": "high",
+        "steps": [
+          "Purchase certified resistant seeds",
+          "Plant during recommended season",
+          "Maintain proper spacing"
+        ]
+      }
+    ],
+    "prevention": {
+      "en": [
+        "Plant resistant varieties",
+        "Control leafhoppers early",
+        "Remove infected plants"
+      ],
+      "ha": [
+        "Shuka nau'ukan masara masu juriya",
+        "Sarrafa leafhoppers da wuri",
+        "Cire shuke-shuke masu cuta"
+      ],
+      "yo": [
+        "Gbin awọn iru ti o ni aifọwọyi",
+        "Ṣakoso awọn leafhoppers ni wiwọle",
+        "Yọ awọn ohun ọgbin ti o ni aisan"
+      ],
+      "ig": [
+        "Kụọ ụdị ndị na-eguzogide",
+        "Jikwaa leafhoppers n'oge",
+        "Wepu osisi ndị nwere ọrịa"
+      ],
+      "pidgin": [
+        "Plant resistant varieties",
+        "Control leafhoppers early",
+        "Remove sick plants"
+      ]
+    },
+    "severity": "high",
+    "urgency": "immediate"
+  },
+  "cassava_healthy": {
+    "name": {
+      "en": "Healthy Cassava",
+      "ha": "Rogo mai lafiya",
+      "yo": "Ege alaafia",
+      "ig": "Akpu dị mma",
+      "pidgin": "Cassava wey dey fine"
+    },
+    "symptoms": {
+      "en": [
+        "No visible symptoms",
+        "Healthy green leaves",
+        "Normal tuber growth"
+      ],
+      "ha": [
+        "Babu alamun cuta",
+        "Ganye mai kore",
+        "Girma na yau da kullun"
+      ],
+      "yo": [
+        "Ko si awọn aami aisan",
+        "Awọn ewe alaafia",
+        "Idagbasoke deede"
+      ],
+      "ig": [
+        "Enweghị ihe mgbaàmà",
+        "Akwụkwọ dị mma",
+        "Ọganihu nkịtị"
+      ],
+      "pidgin": [
+        "No symptoms",
+        "Green leaves dey fine",
+        "Dey grow well"
+      ]
+    },
+    "treatments": [],
+    "prevention": {
+      "en": [
+        "Maintain good farming practices",
+        "Regular monitoring",
+        "Proper spacing"
+      ],
+      "ha": [
+        "Kula da aikin noma mai kyau",
+        "Dubawa akai-akai",
+        "Tazarar da ta dace"
+      ],
+      "yo": [
+        "Duro awọn ọna ogbin rere",
+        "Wiwọle laifọwọyi",
+        "Ojulowo to dara"
+      ],
+      "ig": [
+        "Nọgide na-eme ọrụ ugbo dị mma",
+        "Nleba anya mgbe niile",
+        "Ebe kwesịrị ekwesị"
+      ],
+      "pidgin": [
+        "Keep good farming",
+        "Check am regular",
+        "Space am well"
+      ]
+    },
+    "severity": "none",
+    "urgency": "low"
+  },
+  "tomato_healthy": {
+    "name": {
+      "en": "Healthy Tomato",
+      "ha": "Tumatir mai lafiya",
+      "yo": "Tomati alaafia",
+      "ig": "Tomato dị mma",
+      "pidgin": "Tomato wey dey fine"
+    },
+    "symptoms": {
+      "en": [
+        "No visible symptoms",
+        "Healthy green leaves",
+        "Normal fruit development"
+      ],
+      "ha": [
+        "Babu alamun cuta",
+        "Ganye mai kore",
+        "Ci gaban 'ya'yan itace na yau da kullun"
+      ],
+      "yo": [
+        "Ko si awọn aami aisan",
+        "Awọn ewe alaafia",
+        "Idagbasoke deede"
+      ],
+      "ig": [
+        "Enweghị ihe mgbaàmà",
+        "Akwụkwọ dị mma",
+        "Ọganihu mkpụrụ nkịtị"
+      ],
+      "pidgin": [
+        "No symptoms",
+        "Green leaves dey fine",
+        "Fruits dey grow well"
+      ]
+    },
+    "treatments": [],
+    "prevention": {
+      "en": [
+        "Maintain good farming practices",
+        "Regular monitoring",
+        "Proper watering"
+      ],
+      "ha": [
+        "Kula da aikin noma mai kyau",
+        "Dubawa akai-akai",
+        "Ban ruwa daidai"
+      ],
+      "yo": [
+        "Duro awọn ọna ogbin rere",
+        "Wiwọle laifọwọyi",
+        "Ọtun ọṣọ"
+      ],
+      "ig": [
+        "Nọgide na-eme ọrụ ugbo dị mma",
+        "Nleba anya mgbe niile",
+        "Ịgba mmiri kwesịrị ekwesị"
+      ],
+      "pidgin": [
+        "Keep good farming",
+        "Check am regular",
+        "Water am well"
+      ]
+    },
+    "severity": "none",
+    "urgency": "low"
+  }
+}
