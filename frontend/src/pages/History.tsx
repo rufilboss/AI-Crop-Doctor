@@ -101,40 +101,57 @@ const History: React.FC = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="card hover:shadow-xl transition-all duration-300"
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-semibold capitalize">
-                        {item.crop_type}
-                      </span>
-                      <span className="text-gray-600 text-sm flex items-center space-x-1">
-                        <Calendar className="w-4 h-4" />
-                        <span>{new Date(item.created_at).toLocaleDateString()}</span>
-                      </span>
+                <div className="flex flex-col md:flex-row gap-4">
+                  {/* Image */}
+                  {item.image_data && (
+                    <div className="flex-shrink-0">
+                      <img
+                        src={item.image_data}
+                        alt={`${item.crop_type} - ${item.disease}`}
+                        className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-lg border-2 border-gray-200"
+                      />
                     </div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-1 capitalize">
-                      {item.disease.replace(/_/g, ' ')}
-                    </h3>
-                    <div className="flex items-center space-x-4 text-sm text-gray-600">
-                      <span>
-                        {t('results.confidence')}: <strong>{(item.confidence * 100).toFixed(1)}%</strong>
-                      </span>
-                      <span className={`px-2 py-1 rounded text-xs ${
-                        item.severity === 'high' ? 'bg-red-100 text-red-700' :
-                        item.severity === 'medium' ? 'bg-orange-100 text-orange-700' :
-                        item.severity === 'low' ? 'bg-yellow-100 text-yellow-700' :
-                        'bg-green-100 text-green-700'
-                      }`}>
-                        {t(`severity.${item.severity}`)}
-                      </span>
+                  )}
+                  
+                  {/* Content */}
+                  <div className="flex-1 flex flex-col">
+                    <div className="flex items-start justify-between mb-2">
+                      <div className="flex-1">
+                        <div className="flex items-center space-x-3 mb-2">
+                          <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-semibold capitalize">
+                            {item.crop_type}
+                          </span>
+                          <span className="text-gray-600 text-sm flex items-center space-x-1">
+                            <Calendar className="w-4 h-4" />
+                            <span>{new Date(item.created_at).toLocaleDateString()}</span>
+                          </span>
+                        </div>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-1 capitalize">
+                          {item.disease.replace(/_/g, ' ')}
+                        </h3>
+                        <div className="flex items-center space-x-4 text-sm text-gray-600">
+                          <span>
+                            {t('results.confidence')}: <strong>{(item.confidence * 100).toFixed(1)}%</strong>
+                          </span>
+                          <span className={`px-2 py-1 rounded text-xs ${
+                            item.severity === 'high' ? 'bg-red-100 text-red-700' :
+                            item.severity === 'medium' ? 'bg-orange-100 text-orange-700' :
+                            item.severity === 'low' ? 'bg-yellow-100 text-yellow-700' :
+                            'bg-green-100 text-green-700'
+                          }`}>
+                            {t(`severity.${item.severity}`)}
+                          </span>
+                        </div>
+                      </div>
+                      <button
+                        onClick={() => handleDelete(item.id)}
+                        className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors flex-shrink-0"
+                        title={t('history.delete') || 'Delete'}
+                      >
+                        <Trash2 className="w-5 h-5" />
+                      </button>
                     </div>
                   </div>
-                  <button
-                    onClick={() => handleDelete(item.id)}
-                    className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
-                  >
-                    <Trash2 className="w-5 h-5" />
-                  </button>
                 </div>
               </motion.div>
             ))}

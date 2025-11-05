@@ -49,7 +49,8 @@ async def save_detection(detection: dict):
             disease=detection.get("disease"),
             confidence=detection.get("confidence"),
             severity=detection.get("severity"),
-            language=detection.get("language", "en")
+            language=detection.get("language", "en"),
+            image_data=detection.get("image_data")  # Base64 encoded image
         )
         db.add(db_detection)
         db.commit()

@@ -5,6 +5,7 @@
 ### Backend (FastAPI)
 
 #### ✅ Core API Structure
+
 - **FastAPI Application** (`backend/main.py`)
   - CORS middleware configured
   - Model loading on startup
@@ -12,6 +13,7 @@
   - API documentation (Swagger/ReDoc)
 
 #### ✅ API Routes
+
 - **Detection Routes** (`backend/api/routes/detection.py`)
   - `POST /api/detect/crop-type` - Detect crop type
   - `POST /api/detect/disease` - Detect disease
@@ -29,6 +31,7 @@
   - `GET /api/languages` - Get available languages
 
 #### ✅ ML Models
+
 - **Crop Detector** (`backend/models/crop_detector.py`)
   - MobileNetV2-based transfer learning
   - Detects: Maize, Cassava, Tomato
@@ -69,6 +72,7 @@
   - Toast notifications
 
 #### ✅ Pages
+
 - **Home Page** (`frontend/src/pages/Home.tsx`)
   - Hero section with CTA
   - Feature cards with animations

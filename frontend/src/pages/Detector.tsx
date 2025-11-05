@@ -16,11 +16,25 @@ const Detector: React.FC = () => {
   const [cropType, setCropType] = useState<string>('')
   const [isProcessing, setIsProcessing] = useState(false)
   const [results, setResults] = useState<any>(null)
+  const [isDragging, setIsDragging] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
   const cameraRef = useRef<HTMLVideoElement>(null)
   const [showCamera, setShowCamera] = useState(false)
+  const dropZoneRef = useRef<HTMLDivElement>(null)
 
   const handleImageSelect = (file: File) => {
+    // Validate file type
+    if (!file.type.startsWith('image/')) {
+      toast.error(t('detection.invalid_file_type') || 'Please select an image file')
+      return
+    }
+    
+    // Validate file size (max 10MB)
+    if (file.size > 10 * 1024 * 1024) {
+      toast.error(t('detection.file_too_large') || 'File size should be less than 10MB')
+      return
+    }
+
     setSelectedImage(file)
     const reader = new FileReader()
     reader.onloadend = () => {
@@ -35,6 +49,53 @@ const Detector: React.FC = () => {
       handleImageSelect(e.target.files[0])
     }
   }
+
+  // Drag and drop handlers
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(true)
+  }
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(false)
+  }
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
+    setIsDragging(false)
+
+    const files = e.dataTransfer.files
+    if (files && files[0]) {
+      handleImageSelect(files[0])
+    }
+  }
+
+  // Paste handler
+  React.useEffect(() => {
+    const handlePaste = (e: ClipboardEvent) => {
+      const items = e.clipboardData?.items
+      if (items) {
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].type.startsWith('image/')) {
+            const file = items[i].getAsFile()
+            if (file) {
+              handleImageSelect(file)
+              toast.success(t('detection.image_pasted') || 'Image pasted successfully')
+            }
+          }
+        }
+      }
+    }
+
+    window.addEventListener('paste', handlePaste)
+    return () => {
+      window.removeEventListener('paste', handlePaste)
+    }
+  }, [])
 
   const handleCameraCapture = async () => {
     try {
@@ -87,9 +148,14 @@ const Detector: React.FC = () => {
       setResults(response.data)
       toast.success(t('detection.success'))
       
-      // Navigate to results page after a short delay
+      // Navigate to results page after a short delay with image preview
       setTimeout(() => {
-        navigate('/results', { state: { results: response.data } })
+        navigate('/results', { 
+          state: { 
+            results: response.data,
+            imagePreview: preview  // Pass the image preview
+          } 
+        })
       }, 1000)
     } catch (error: any) {
       toast.error(error.response?.data?.detail || t('detection.error'))
@@ -121,20 +187,36 @@ const Detector: React.FC = () => {
         <div className="card mb-6">
           {!preview ? (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {/* Upload */}
+              {/* Upload with Drag & Drop */}
               <div className="space-y-4">
                 <label className="block text-sm font-medium text-gray-700">
                   {t('detection.upload_image')}
                 </label>
-                <button
+                <div
+                  ref={dropZoneRef}
+                  onDragOver={handleDragOver}
+                  onDragLeave={handleDragLeave}
+                  onDrop={handleDrop}
                   onClick={() => fileInputRef.current?.click()}
-                  className="btn-primary w-full flex items-center justify-center space-x-2 h-32 border-2 border-dashed border-primary-300 bg-primary-50 hover:bg-primary-100"
+                  className={`w-full flex flex-col items-center justify-center space-y-2 h-32 border-2 border-dashed rounded-lg cursor-pointer transition-all ${
+                    isDragging
+                      ? 'border-primary-500 bg-primary-100 scale-105'
+                      : 'border-primary-300 bg-primary-50 hover:bg-primary-100 hover:border-primary-400'
+                  }`}
                 >
-                  <Upload className="w-6 h-6" />
-                  <span>{t('detection.choose_file')}</span>
-                </button>
+                  <Upload className={`w-8 h-8 ${isDragging ? 'text-primary-600' : 'text-primary-500'}`} />
+                  <span className="text-sm font-medium text-gray-700">
+                    {isDragging ? t('detection.drop_here') || 'Drop image here' : t('detection.choose_file')}
+                  </span>
+                  <span className="text-xs text-gray-500">
+                    {t('detection.or_drag_drop') || 'or drag and drop'}
+                  </span>
+                  <span className="text-xs text-gray-400">
+                    {t('detection.paste_hint') || 'You can also paste (Ctrl+V)'}
+                  </span>
+                </div>
                 <input
-                  ref={fileInputRef.current}
+                  ref={fileInputRef}
                   type="file"
                   accept="image/*"
                   onChange={handleFileUpload}

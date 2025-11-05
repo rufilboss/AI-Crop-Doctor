@@ -62,7 +62,13 @@
     "error": "An error occurred during detection",
     "result_preview": "Detection Complete",
     "crop_detected": "Crop",
-    "disease": "Disease"
+    "disease": "Disease",
+    "drop_here": "Drop image here",
+    "or_drag_drop": "or drag and drop",
+    "paste_hint": "You can also paste (Ctrl+V)",
+    "image_pasted": "Image pasted successfully",
+    "invalid_file_type": "Please select an image file",
+    "file_too_large": "File size should be less than 10MB"
   },
   "results": {
     "title": "Detection Results",
@@ -80,7 +86,8 @@
     "share_title": "Crop Disease Detection Results",
     "copied": "Results copied to clipboard",
     "detect_again": "Detect Another",
-    "view_full_guide": "View Full Guide"
+    "view_full_guide": "View Full Guide",
+    "uploaded_image": "Uploaded Image"
   },
   "history": {
     "title": "Detection History",

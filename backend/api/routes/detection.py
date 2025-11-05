@@ -15,8 +15,8 @@ router = APIRouter()
 
 @router.post("/crop-type", response_model=CropDetectionResponse)
 async def detect_crop_type(
-    file: UploadFile = File(...),
-    request: Request
+    request: Request,
+    file: UploadFile = File(...)
 ):
     """Detect crop type from image"""
     try:
@@ -40,10 +40,10 @@ async def detect_crop_type(
 
 @router.post("/disease", response_model=DetectionResponse)
 async def detect_disease(
+    request: Request,
     file: UploadFile = File(...),
     crop_type: Optional[str] = None,
-    language: str = "en",
-    request: Request
+    language: str = "en"
 ):
     """Detect disease in crop image"""
     try:
@@ -82,9 +82,9 @@ async def detect_disease(
 
 @router.post("/full", response_model=DetectionResponse)
 async def full_detection(
+    request: Request,
     file: UploadFile = File(...),
-    language: str = "en",
-    request: Request
+    language: str = "en"
 ):
     """Complete detection pipeline: crop + disease + recommendations"""
     try:

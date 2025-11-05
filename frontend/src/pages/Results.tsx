@@ -11,10 +11,15 @@ const Results: React.FC = () => {
   const location = useLocation()
   const navigate = useNavigate()
   const [results, setResults] = useState<any>(null)
+  const [imagePreview, setImagePreview] = useState<string | null>(null)
 
   useEffect(() => {
     if (location.state?.results) {
       setResults(location.state.results)
+      // Get image from state if available
+      if (location.state?.imagePreview) {
+        setImagePreview(location.state.imagePreview)
+      }
     } else {
       // If no results in state, redirect to detector
       navigate('/detect')
@@ -56,7 +61,8 @@ const Results: React.FC = () => {
         disease: results.disease,
         confidence: results.confidence,
         severity: results.severity,
-        language: localStorage.getItem('language') || 'en'
+        language: localStorage.getItem('language') || 'en',
+        image_data: imagePreview  // Save the base64 image
       })
       toast.success(t('results.saved'))
     } catch (error) {
@@ -113,6 +119,20 @@ const Results: React.FC = () => {
         </div>
 
         <h1 className="text-4xl font-bold mb-2 text-gray-900">{t('results.title')}</h1>
+
+        {/* Image Preview */}
+        {imagePreview && (
+          <div className="card mb-6">
+            <h3 className="text-lg font-semibold mb-4">{t('results.uploaded_image') || 'Uploaded Image'}</h3>
+            <div className="flex justify-center">
+              <img
+                src={imagePreview}
+                alt="Crop image"
+                className="max-w-full max-h-96 rounded-lg shadow-md object-contain"
+              />
+            </div>
+          </div>
+        )}
 
         {/* Disease Info Card */}
         <div className={`card border-l-4 ${getSeverityColor(results.severity)}`}>
