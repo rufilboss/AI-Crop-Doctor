@@ -139,7 +139,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 AI Crop Doctor. {t('footer.rights')}</p>
+            <p>&copy; {new Date().getFullYear()} AI Crop Doctor. {t('footer.rights')}</p>
           </div>
         </div>
       </footer>
