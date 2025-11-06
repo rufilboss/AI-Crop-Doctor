@@ -30,11 +30,21 @@ class BaseDiseaseClassifier:
     
     async def _create_model(self):
         """Create new disease classifier using transfer learning"""
-        base_model = tf.keras.applications.EfficientNetB0(
-            input_shape=self.input_shape,
-            include_top=False,
-            weights='imagenet'
-        )
+        # Try to load ImageNet weights (requires 3-channel input). If that fails due to
+        # shape/weights issues on some TF builds, fall back to random initialization.
+        try:
+            base_model = tf.keras.applications.EfficientNetB0(
+                input_shape=self.input_shape,
+                include_top=False,
+                weights='imagenet'
+            )
+        except Exception as e:
+            print(f"⚠️ Failed to load EfficientNetB0 with ImageNet weights ({e}). Falling back to weights=None.")
+            base_model = tf.keras.applications.EfficientNetB0(
+                input_shape=self.input_shape,
+                include_top=False,
+                weights=None
+            )
         
         base_model.trainable = False
         
