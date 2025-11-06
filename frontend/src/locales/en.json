@@ -9,10 +9,6 @@
     "badge": "For Nigerian Farmers",
     "title": "AI Crop Doctor",
     "subtitle": "Detect crop diseases instantly using AI-powered image recognition. Get treatment recommendations in your local language.",
-    "cta": {
-      "detect": "Detect Disease",
-      "learn": "Learn More"
-    },
     "features": {
       "title": "Why Choose AI Crop Doctor?",
       "detection": {
@@ -43,6 +39,8 @@
       "description": "Start detecting diseases today and get expert recommendations"
     },
     "cta": {
+      "detect": "Detect Disease",
+      "learn": "Learn More",
       "start": "Get Started Now"
     }
   },
