@@ -9,10 +9,6 @@
     "badge": "Fun Awọn Agbe Nàìjíríà",
     "title": "AI Dókítà Ògbìn",
     "subtitle": "Waye awọn arun ọgbìn ni kikun nipa lilo iwọran AI. Gba awọn imọran iwosan ni ede agbegbe rẹ.",
-    "cta": {
-      "detect": "Waye Arun",
-      "learn": "Kọ Siwaju"
-    },
     "features": {
       "title": "Kíní o Fi Dókítà Ògbìn AI?",
       "detection": {
@@ -43,6 +39,8 @@
       "description": "Bẹrẹ waye awọn arun loni ki o gba awọn imọran lati awọn ọjọgbọn"
     },
     "cta": {
+      "detect": "Waye Arun",
+      "learn": "Kọ Siwaju",
       "start": "Bẹrẹ Nisisiyi"
     }
   },

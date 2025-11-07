@@ -9,10 +9,6 @@
     "badge": "For Naija Farmers",
     "title": "AI Crop Doctor",
     "subtitle": "Check crop sickness quick quick with AI. Get treatment advice for your local language.",
-    "cta": {
-      "detect": "Check Sickness",
-      "learn": "Learn More"
-    },
     "features": {
       "title": "Why You Go Choose AI Crop Doctor?",
       "detection": {
@@ -43,6 +39,8 @@
       "description": "Start checking sickness today and get expert advice"
     },
     "cta": {
+      "detect": "Check Sickness",
+      "learn": "Learn More",
       "start": "Start Now"
     }
   },

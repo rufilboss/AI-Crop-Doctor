@@ -9,10 +9,6 @@
     "badge": "Ga Manoma Najeriya",
     "title": "AI Likitan Amfanin Gona",
     "subtitle": "Gano cututtukan amfanin gona nan da nan ta hanyar amfani da AI. Samu shawarwari na magani cikin yarenku.",
-    "cta": {
-      "detect": "Gano Cuta",
-      "learn": "Kara Koyo"
-    },
     "features": {
       "title": "Me yasa za ka zaɓi AI Likitan Amfanin Gona?",
       "detection": {
@@ -43,6 +39,8 @@
       "description": "Fara gano cututtuka yau kuma sami shawarwari daga ƙwararru"
     },
     "cta": {
+      "detect": "Gano Cuta",
+      "learn": "Kara Koyo",
       "start": "Fara Yanzu"
     }
   },

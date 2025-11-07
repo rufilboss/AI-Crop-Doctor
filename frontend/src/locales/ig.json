@@ -9,10 +9,6 @@
     "badge": "Maka Ndị Ọrụ Ugbo Naịjirịa",
     "title": "AI Dọkịta Ihe ọkụkụ",
     "subtitle": "Chọpụta ọrịa ihe ọkụkụ ozugbo site na iji AI. Nweta ndụmọdụ ọgwụgwọ n'asụsụ obodo gị.",
-    "cta": {
-      "detect": "Chọpụta Ọrịa",
-      "learn": "Mụtakwuo"
-    },
     "features": {
       "title": "Gịnị kpatara ị ga-ahọrọ AI Dọkịta Ihe ọkụkụ?",
       "detection": {
@@ -43,6 +39,8 @@
       "description": "Malite ịchọpụta ọrịa taa ma nweta ndụmọdụ sitere na ndị ọkachamara"
     },
     "cta": {
+      "detect": "Chọpụta Ọrịa",
+      "learn": "Mụtakwuo",
       "start": "Malite Ugbu a"
     }
   },
